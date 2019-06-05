@@ -1,0 +1,748 @@
+/* Copyright 2018 Seedproof. All Rights Reserved */
+/* https://seedproof.com */
+
+
+#feed {
+	display:inline-block;
+	width:530px;
+	margin:5px auto;
+	text-align:left;
+	padding:0;
+		
+}
+#feed.myFeed, #feed.pitchFeed {
+	/*width:830px !important;*/
+	width:830px;
+}
+
+
+#feed.pitchFeed .pitchCard{
+	/*
+	background-color:#505458;
+	color:#F5F5F5;
+	*/
+}
+	
+
+/* Remove #feed below to see colored tiles & add line 19 on main.css */
+#feed .block {
+	padding:10px 20px;
+	margin:10px 15px;
+	font-size:2.0rem;
+	background-color:#ffffff;
+	border: 1px solid #e8e8e8;
+	border-radius:2.5px;
+}
+#feed .dark {
+	/*
+	color:#fafafa;
+	color:rgba(255,255,255,0.95);
+	background-color:rgba(35,65,153,0.65);
+	*/
+	
+	background-color:#BDBDBD;
+	background-color:rgba(35,65,153,0.25);
+}
+#feed .dark .card_name {
+	color:rgba(35,65,153,1.00);
+}
+#feed .inner-block {
+	padding:10px 20px;
+	margin:10px 0;
+	font-size:2.0rem;
+	background-color:#ffffff;
+	/*border: 1px solid #e8e8e8;*/
+	border-radius:2.5px;
+}
+#feed .inner-block .card_problem {
+	color:#212121;
+}
+.myFeed .card_problem {
+	color:rgba(255,255,255,0.95);
+}
+#feed .stat-block {
+	padding:0;
+	margin:10px 0;
+	font-size:1.3rem;
+	font-weight:700;
+	/*background-color:#ffffff;*/
+	color:#fff;
+	text-align:left;
+	text-transform:uppercase;
+	/*border: 1px solid #e8e8e8;
+	border-radius:2.5px;*/
+}
+#feed .stat-block div {
+	color:#212121;
+	text-align:center;
+	background-color:#fafafa;
+}
+
+#feed .stat-block span {
+	display:block;
+	font-size:1.95rem;
+	color:#234199;
+	font-weight:300;
+	text-transform:capitalize;
+	margin-top:5px;
+}
+#feed .stat-block .bL, #feed .stat-block .bR  {
+	padding:20px 10px;
+	margin:0;
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+} 
+#feed .stat-block .bL {
+	border-left: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
+	border-top-right-radius:2.5px;
+	border-bottom-right-radius:2.5px;
+}
+#feed .stat-block .bR {
+	border-left: 1px solid #e8e8e8;
+	border-right: 1px solid rgba(0,0,0,0);
+	border-top-left-radius:2.5px;
+	border-bottom-left-radius:2.5px;
+}
+
+#feed .card {
+	min-height:122px;
+}
+#feed .cardWrapper {
+	/*min-height:100px;*/
+	min-height:90px;
+	position:relative;
+}
+#feed .block:focus {
+		background-color:#EEEEEE;
+}
+#feed .banner {
+	padding:40px 20px;
+}
+#feed .talking {
+	font-size:1.0rem;
+}
+#feed a {
+	font-size:1.3rem;
+}
+
+.sidefeed {
+	visibility: visible;
+	vertical-align: top;
+	display: inline-block;
+	height:auto; 
+	/*width:230px;*/ 
+	width:300px;
+	margin:auto;
+	margin-top:15px;
+	padding:0;
+	/*margin-right:70px;*/
+}
+.whyCard {
+	border-left:3px solid #234199;
+	margin-bottom:20px;
+	padding:0 12px;
+	margin:15px 0;
+}
+.whyCardHide {
+	position: absolute;
+	top:80px;
+	left:20px;
+	display:block;
+}
+#sideLeft {
+	margin-left:0px;
+	margin-right:6px;
+}
+#sideRight {
+	position:relative;
+	margin-left:6px;
+	margin-right:0px;
+}
+#sideRight.sidefeed {
+	width:290px;
+}
+.stickySideRight {
+	position: absolute;
+	right:0;
+	bottom:140px;
+}
+.sideBlock h2 {
+	font-size: 2.1em;
+	font-weight:500;
+	color:#212121; /*#234199;*/
+}
+.sideBlock {
+	padding:10px 20px;
+	background-color:#ffffff;
+	border: 1px solid #e8e8e8;
+	border-radius:2.5px;
+	text-align: left;
+	margin-bottom:25px;
+	padding-bottom:20px;
+}
+#sideMe.sideBlock {
+	/*background: linear-gradient(-15deg, #FFF, rgba(35,65,153,0.12));
+	background-color: rgba(35,65,153,0.05);*/
+	border: 1px solid rgba(35,65,153,0.08);
+    /*box-shadow: 0px 0px 20px 2px rgba(35,65,153, 0.10);*/
+	margin-top:40px;
+}
+/* pre 8/7/2018
+.sideBlock-nav {
+	padding:0;
+	background-color:#ffffff;
+	border: 1px solid #e8e8e8;
+	border-radius:2.5px;
+	text-align: left;
+	margin-bottom:15px;
+}
+*/
+.sideBlock-nav {
+	padding:0;
+	text-align: left;
+	margin-bottom:25px;
+	
+	background-color:#ffffff;
+	border: 1px solid #e8e8e8;
+	border-radius:2.5px;
+}
+#sideSpinner:hover {
+	cursor:pointer;
+}
+
+
+
+
+.hr_feedback {
+	border-color:#EEEEEE;
+}
+
+#feedback .upHeading, #feedback .downHeading {
+	font-size:1.3em;
+	font-weight:300;
+	text-align:center;
+}
+#feedback .upHeading {color:#4CAF50;}
+#feedback .downHeading {color:#F44336;}
+
+
+#feedback input[type=checkbox] + label, #feedback input[type=radio] + label {
+	font-size:0.7em;
+	font-weight:500;
+	padding:6px 30px;
+	margin-left:-18px;
+}
+#feedback span {
+	font-style:italic;
+	color:#ffffff;
+	font-size:0.7em;
+}
+#feedback input[type=checkbox]:hover + label, #feedback input[type=radio]:hover + label {
+	cursor:pointer;
+	background-color:#EEEEEE;
+}
+#feedback input[type=checkbox]:checked + label, #feedback input[type=radio]:checked + label {
+	background-color:#E0E0E0;
+}
+#feedback textarea + label {
+	font-size:0.8em;
+	margin-top:15px;
+}
+#feed .more {
+	/*background: linear-gradient(to right, rgba(255,0,0,0.00), #234199);*/
+	font-weight:bold;
+}
+#feed .more:hover {
+	cursor:pointer;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px 2px 3px 0px;
+}
+#feed .more:active {
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px 2px 3px 0px;
+	background: linear-gradient(to right, rgba(255,0,0,0.00), #234199);
+}
+
+.comments {
+	/*
+	position:relative;
+	margin:10px -20px 10px -14px;
+	margin:10px 0;
+	margin-top:0;
+	margin-bottom:-10px;
+	padding:10px 20px;
+	padding:10px 0;
+	padding-top:0;
+	*/
+	vertical-align:middle;
+	/*border-top:1px solid #EEEEEE;
+	background-color:#EEE;*/
+}
+
+.comments {
+	width:100%;
+	padding:0 10px;
+	/*border-top:1px solid #EEEEEE;
+	background-color:#EEE;*/
+	vertical-align:middle;
+	position:relative;
+}
+.comments input {
+	width:100%;
+	margin:20px 0 10px 0;
+	padding:2px;
+	padding-left:12px;
+	height:32px;
+	border:0;
+	border-radius:3px;
+	font-size:1.4rem;
+	color:#212121;
+	background-color:#FFF;
+	/*background-color:#eee;*/
+	padding-right:65px;
+}
+.comments button {
+	position:absolute;
+	margin:auto;
+	right:14px;
+	top:24px;
+	height:24px;
+	color:#fff;
+	background-color:#9e9e9e;
+	text-transform:uppercase;
+	font-size:1.0rem;
+	border-radius:3px;
+	
+	background-image:url(https://seedproof.com/images/engage/post.svg);
+    background-size:20px;
+	background-repeat:no-repeat;
+	background-position: center center; 
+}
+
+.comments button:hover {
+	background-color:rgba(150,18,118,0.85);
+}
+.engage {
+	position:relative;
+	text-align:left;
+	margin:0;
+	padding:3px 0;
+	border-top:1px solid #DDD;
+	width:100%;
+	height:38px;
+	overflow:hidden;
+}
+.engage a {
+	display:inline-block;
+	margin:2px 0;
+	margin-right:2px;
+	margin-bottom:-8px;
+	/*width:23%;*/
+	padding:6px 8px;
+	padding-left:30px;	
+	text-align:left;
+	border:0;
+	color:#424242;
+	height:32px;
+	line-height:20px;
+}
+.engage .launch {
+	background-image:url(https://seedproof.com/images/engage/launch.svg);
+}
+.engage .save, .engage .save_problem, .engage .save_failure {
+	background-image:url(https://seedproof.com/images/engage/save.svg);
+}
+.engage .subscribe {
+	background-image:url(https://seedproof.com/images/engage/subscribe.svg);
+}
+.engage .commentOpen, .engage .commentOpen_problem, .engage .commentOpen_failure, .engage .commentOpen_stage, .engage .commentOpen_track {
+	background-image:url(https://seedproof.com/images/engage/comment.svg);
+}
+.engage .launched {
+	background-image:url(https://seedproof.com/images/engage/launchB.svg);
+	color:#961276;
+}
+.engage .saved {
+	background-image:url(https://seedproof.com/images/engage/saveB.svg);
+	color:#961276;
+}
+.engage .subscribed {
+	background-image:url(https://seedproof.com/images/engage/subscribeB.svg);
+	color:#961276;
+}
+.engage .commented {
+	background-image:url(https://seedproof.com/images/engage/commentB.svg);
+	color:#961276;
+}
+
+.engage a {
+    background-size:18px;
+	background-repeat:no-repeat;
+	background-position: 6px center; 
+}
+
+.engage a:hover {
+	/*background-color:rgba(35,65,153,0.15);*/
+	background-color:rgba(150,18,118,0.15);
+	border-radius:3px;
+	text-decoration:none;
+}
+
+.commentBox {
+	background-color:rgb(235, 235, 235);
+	margin:8px -20px -10px -20px;
+	padding-bottom:1px;
+}
+.commentWrapper {
+	margin:10px;
+	color:#212121;
+	font-size:14px;
+	padding-left:34px;
+}
+.comment {
+	background-color:rgb(245, 245, 245);
+	border-radius:3px;
+	padding:5px 10px;
+	line-height:24px;
+	display:inline-block;
+	max-width:444px;
+	vertical-align: top;
+}
+.commentWrapper img {
+	width:24px;
+	margin-top:5px;
+	margin-right:10px;
+	display:inline-block;
+	margin-left:-34px;
+	vertical-align: top;
+}
+.commentWrapper.commentOwner {
+	padding-left:34px;
+	padding-right:34px;
+}
+.commentOwner .comment {
+	text-align:right;
+}
+.commentWrapper.commentOwner img {
+	width:24px;
+	margin-top:5px;
+	margin-right:0px;
+	margin-left:10px;
+	display:inline-block;
+	margin-left:0;
+	margin-right:-34px;
+}
+
+#cta_new_feed_top {
+	/*border-left:6px solid rgba(35,65,153,1.00) !important;
+	background-color: rgba(35,65,153,0.05) !important;
+	background-color: #eee !important;*/
+	/*padding:10px 20px !important;*/
+	padding:0 !important;
+}	
+
+#form_idea_submit_feed_top .form-group {
+	margin:0;
+	width:100%;
+}
+
+#form_idea_submit_feed_top .input-group {
+	width:100%;
+}
+#form_idea_submit_feed_top .form-control {
+	height:40px;
+}
+
+#cta_new_feed_top .input-group-addon {
+	/*background-color: #234199;
+	background: url(https://seedproof.com/images/icons/idea.png);
+	background-size: contain;
+	background-repeat:no-repeat;
+	background-position: left center; */
+	font-size:1.2em; 
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#234199;
+	padding-top:8px;
+}
+
+
+#feed .btn-feedback-up, #feed .btn-feedback-down {
+	line-height:30px; margin:10px auto; height:30px; text-align:center;  border:0;color:#FFF;padding:0;
+	/*border-radius:15px;*/
+}
+#feed .btn-feedback-up {
+	background-color: #4CAF50;
+}
+#feed .btn-feedback-down {
+	background-color: #F44336;
+}
+
+#feed .hor {
+ width:140px;
+ height:140px;
+ float:left;
+ overflow:hidden;
+	height:140px;
+	width:140px;
+	margin:0;
+	margin-left:15px;
+	margin-bottom:15px;
+	
+}
+#feed .hor .card_name {
+	font-size: 20px;
+}
+#feed .horWrapper {
+	overflow:hidden;
+	background-color:#C5CAE9;
+	padding:15px 0;
+	margin:10px 15px;
+}
+
+#feed .horMore {
+	background-image:url(https://seedproof.com/images/icons/arrow.svg);
+    background-size:32px;
+	background-repeat:no-repeat;
+	background-position: center center; 
+}
+#feed .horMore a {
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+.hide {visibility:hidden;}
+
+.ver {
+ width:140px;
+ 
+background-color:#fff;
+width:100%;
+margin:0;
+padding:10px 20px;
+}
+.ver .card_name {
+	font-size: 1.3rem;
+	margin:0;
+}
+.ver .card_idea {
+	font-size: 1.1rem;
+	margin:0;
+}
+.verWrapper h3 {
+	display:block; margin:25px 0; color:#000000;padding:0 20px;
+}
+#newVertical.verWrapper {
+	/*
+	background-color:#C5CAE9;
+	background-color:#e3f2fd;
+	background-color:#d3d9eb;
+	*/
+	background-color:#e9ecf5;
+	background-image:url(https://seedproof.com/images/bgs/balloons.svg);
+}
+#newVertical .ver {
+	border-top:1px solid #e9ecf5;
+	background-color:#fbfbfd;
+}
+#popVertical.verWrapper {
+	/*background-color:#c8e6c9;*/
+	background-color:#e8f5e9;
+	background-image:url(https://seedproof.com/images/bgs/flame.svg);
+}
+#popVertical .ver {
+	border-top:1px solid #e8f5e9;
+	background-color:#fafdfb;
+}
+#probVertical.verWrapper {
+	/*background-color:#ffcdd2;*/
+	background-color:#ffebee;
+	background-image:url(https://seedproof.com/images/bgs/warning.svg);
+}
+#probVertical .ver {
+	border-top:1px solid #ffebee;
+	background-color:#fffbfc;
+}
+.verWrapper {
+	overflow:hidden;
+	padding:0;margin:0;
+	margin-bottom:25px;
+	text-align:left;
+    background-size:30px;
+	background-repeat:no-repeat;
+	background-position: right 10px top 10px; 	
+}
+
+.verWrapper a.sub {
+	display:block;
+	padding:10px 20px;
+	color:#212121;
+	font-weight:500;
+}
+.verMore {
+	background-image:url(https://seedproof.com/images/icons/arrow.svg);
+    background-size:32px;
+	background-repeat:no-repeat;
+	background-position: center center; 
+}
+.verMore a {
+	display:block;
+	width:100%;
+}
+
+#sideRight .toolBanner {
+	/*background-color: #E1BEE7;*/
+	background:none;
+	color:#212121;
+}
+
+
+.productZoom:hover {
+	cursor:pointer;
+}
+
+
+/* engager pictures */
+
+.engager_project {
+
+    display: block;
+	float:right;
+    margin: 6px 0 6px -7px;
+    padding: 0;
+    border: 0;
+	width:24px;
+	height:24px;
+	/*border:1px solid #e8e8e8;*/
+	border:2px solid #FFF;
+	border-radius:12px;
+}
+/* END -- engager pictures */
+
+
+.award-4 {
+	background-image:url(https://seedproof.com/images/awards/maker-monthly-top.svg);
+}
+.award-3 {
+	background-image:url(https://seedproof.com/images/awards/maker-weekly-first.svg);
+}
+.award-2 {
+	background-image:url(https://seedproof.com/images/awards/maker-weekly-second.svg);
+}
+.award-1 {
+	background-image:url(https://seedproof.com/images/awards/maker-weekly-third.svg);
+}
+.award-5 {
+	background-image:url(https://seedproof.com/images/awards/member-weekly-one.svg);
+}
+.award {
+	width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    float: right;
+    /* margin-right: 64px; */
+    margin-top: -12px;
+	/*
+	position:absolute;
+	top:-2px;
+	left:50
+	*/
+}
+.award-ver {
+	width: 45px;
+    height: 45px;
+    float: left;
+    margin-right: 20px; 
+    margin-top: -10px;
+}
+
+
+/* ///////////////////////// */
+@media (max-width: 1200px) {
+	
+
+	#feed, .myFeed {
+		/*
+		width: auto !important;
+		max-width:530px !important;
+		*/
+		width: 100%;
+		max-width:530px;
+	}
+	#feed.pitchFeed {
+		width: 100%;
+		max-width:830px;
+	}
+
+	.sidefeed {
+		visibility: hidden;
+		display: none;
+		height:0; 
+		width:0;
+		margin:0;
+		padding:0;
+	}
+	
+}
+/* ///////////////////////// */
+
+/* ///////////////////////// */
+@media (max-width: 767px) {
+	
+	#feed .engage a {
+		margin-right:0.2rem;
+		padding:0.7rem 0.75rem;
+		padding-left:2.0rem;	
+		font-size:1.10rem;
+
+		background-size:1.5rem;
+		background-repeat:no-repeat;
+		background-position: 0rem center; 
+	}
+	
+	#feed .horWrapper {
+		
+		overflow:scroll;
+		margin-left:-15px;
+		padding-left:15px;
+		padding-top:0;
+		padding-bottom:10px;
+	}
+	#feed .horContainer {
+		max-height:220px;
+		width:1110px;
+	}
+
+	
+}
+/* ///////////////////////// */
+
+/* ///////////////////////// */
+@media (max-width: 550px) {
+	
+
+	#feed.myFeed, #feed.pitchFeed  {
+		width: 100%;
+		max-width:530px;
+	}
+	
+	
+
+	.award {
+		width: 35px;
+		height: 35px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		display: block;
+		float: left;
+		margin-top: -12px;
+		margin-left: -15px;
+	}	
+
+	
+}
+/* ///////////////////////// */

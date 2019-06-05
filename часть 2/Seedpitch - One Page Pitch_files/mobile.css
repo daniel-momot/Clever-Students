@@ -1,0 +1,93 @@
+/* Copyright 2018 Seedproof. All Rights Reserved */
+/* https://seedproof.com */
+
+
+/*	###########################################################
+	COLORS
+	primary: #234199
+	dark:  
+	light: 
+	
+	FONTS
+	primary: quicksand with edits
+	default: helvetica nue, arial, helvetica
+	
+################################################################ */
+
+
+
+
+
+@media all and (min-width:576px) {
+
+
+} 
+@media all and (max-width:767px) {
+	.btn-mob { width: 100%; display:block; margin-top:8px;}
+	.input-mob { width: 100%;}
+	#footer .col-left {text-align: center;}
+	#footer .col-right {text-align: center;margin-top:10px;}
+	
+	/*
+	body {	background-color: #DBDBDB; }
+	*/
+	
+	#splashWrapper .container {
+		background:none; 	
+	}
+	#splashText {
+		padding:110px 10px 50px 10px;
+	}
+} 
+@media all and (max-width:699px) {
+	.stats div {
+		display:block;
+		font-size:0.8em;
+		width:100%;
+		font-weight:700;
+	}
+	
+} 
+@media all and (max-width:399px) {
+	
+	
+} 
+
+
+
+@media (max-width: 1200px) {
+	
+	#feed .block {			
+		margin:10px;
+	}
+	.feedWrap {
+		margin-left:auto;
+		margin-right:auto;
+		padding-left:0;
+		padding-right:0;
+	}
+	
+	#signupBanner {
+		background-image:url(https://seedproof.com/images/bgs/signup_mobile_02.jpg);
+		background-size: 510px;
+		
+		/*height:164px;*/
+		height:243px;
+	}
+	#splashWrapper {
+		padding:10px;
+	}
+	#splashWrapper .container {
+		padding:0;
+	}
+
+}
+@media (max-width: 530px) {
+
+	#signupBanner {
+		background-size:cover;
+		background-position: right bottom;
+		
+	}
+
+}

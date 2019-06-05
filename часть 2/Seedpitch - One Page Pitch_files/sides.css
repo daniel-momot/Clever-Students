@@ -1,0 +1,147 @@
+/* Copyright 2018 Seedproof. All Rights Reserved */
+/* https://seedproof.com */
+
+
+#sideLeft .sideWrap {
+	padding:0;
+	margin:0;
+	overflow:hidden;
+	text-align:left;
+	background-color:#ffffff;
+	border: 1px solid #e8e8e8;
+	border-radius:2.5px;
+	margin-bottom:20px;
+}
+/*
+#sideLeft h3 {
+	width:100%;
+	padding:10px 20px;
+	background-color:#234199;
+	color:white;
+	font-weight:700;
+	margin:0;
+}
+*/
+#pitchTools .leftBlock {
+	padding-bottom:15px;
+}
+#pitchTools a {
+	display:block;
+}
+#sideLeft .content {
+	padding:10px 20px;
+	margin-bottom:15px;
+	padding-bottom:20px;
+}
+.rating, .listHeader {
+	font-weight:700;
+}
+.rating {
+	font-style:italic;
+}
+.listHeader {
+	text-transform:uppercase;
+	margin-top:20px;
+}
+.sidefeed h4 {
+	font-weight:700;
+	text-transform:uppercase;
+	margin-top:12px;
+	color:#212121;
+}
+.sidefeed h5 {
+	font-weight:300;
+	color:#9E9E9E;
+}
+#myBanner {
+	/*height:60px;*/
+	vertical-align:middle;
+}
+.leftBlock {
+	border-bottom:1px solid #e8e8e8;
+	width:100%;
+	text-align:left;
+}
+.blockFooter {
+	/*
+	background-color: #E0E0E0;
+	border-top:1px solid #e8e8e8;
+	overflow:hidden;
+	margin:0;
+	width:100%;
+	*/
+
+	padding-top:10px;
+	/*font-style:italic;*/
+}
+#sideContributions h4 {
+	
+}
+#sideProfile h5 {
+	margin-top:0;
+}
+#sideContributions h5 {
+	color:#234199;
+	font-size:1.4em;
+	margin-top:0;
+}
+
+.sideFeature {
+	display:block;
+	width:300px;
+	min-height:200px;
+	margin:-20px;
+	margin-top:0;	
+	background-image:url(https://seedproof.com/images/features/genius-cards.gif);
+    background-size: contain;
+	background-repeat:no-repeat;
+	background-position: center center; 
+}
+
+.subTab {
+	display:none;
+	background-color:#f5f5f5;
+	padding-left:25px;
+	border-bottom:1px solid rgba(0,0,0,0.05);
+}
+.subTabLink {
+	display:block;
+	margin:0;
+	padding:10px 20px;
+	font-size:12px;
+	font-weight:500;
+	text-decoration:none;
+}
+.subTabLink:hover {
+	text-decoration:none;
+}
+#sideMe {
+	position:relative;
+}
+#leftMe {
+	display:block;
+	width:50px;
+	height:50px; 
+	position:absolute;
+	left:20px;
+	top:-25px;
+	/*border-radius:2.5px;*/
+	border-radius:25px;
+	overflow:hidden;
+}
+#leftMe img {
+	/*
+	display:inline-block; float:right; height:50px; border-radius:2px; margin-top:10px;
+	*/
+	display:block;
+	width:100%;
+}
+
+
+
+
+
+
+
+
+

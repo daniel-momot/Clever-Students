@@ -1,0 +1,110 @@
+/* Copyright 2018 Seedproof. All Rights Reserved */
+/* https://seedproof.com */
+
+#feed .ideaBanner, #feed .productBanner, #feed .problemBanner {
+
+	
+}
+
+
+.ideaBanner {
+	
+	/*background-image:url(https://seedproof.com/images/bgs/idea.jpg);
+	background-image:url(https://seedproof.com/images/bgs/bg_4-4.jpg);*/
+}
+.productBanner {
+	
+	/*background-image:url(https://seedproof.com/images/bgs/product.jpg);
+	background-image:url(https://seedproof.com/images/bgs/bg_3-4.jpg);*/
+}
+.problemBanner {
+	
+	/*background-image:url(https://seedproof.com/images/bgs/problem.jpg);
+	background-image:url(https://seedproof.com/images/bgs/bg_2-4.jpg);*/
+}
+.categoryBanner {
+	
+	background-image:url(https://seedproof.com/images/bgs/category.jpg);
+}
+.supportBanner {
+	
+	background-image:url(https://seedproof.com/images/bgs/support.jpg);
+}
+.userBanner {
+	
+	/*background-image:url(https://seedproof.com/images/bgs/user.jpg);*/
+	background-image:url(https://seedproof.com/images/bgs/bg_1-4.jpg);	
+}
+
+#feed .ideaBanner {
+	background-image:url(https://seedproof.com/images/bgs/idea_500.jpg);
+}
+#feed .productBanner {
+	background-image:url(https://seedproof.com/images/bgs/product_500.jpg);
+}
+#feed .problemBanner {
+	background-image:url(https://seedproof.com/images/bgs/problem_500.jpg);
+}
+
+.ideaBanner, .productBanner, .problemBanner, .categoryBanner, .supportBanner, .userBanner, #feed .ideaBanner, #feed .productBanner, #feed .problemBanner {
+    background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center bottom; 	
+}
+
+#sideRight .ideaBanner, #sideRight .productBanner, #sideRight .problemBanner {
+	background-color: #fff;
+	color:#212121;
+	/*
+	overflow:hidden;
+	background: linear-gradient(-15deg,#234199,#961276);
+	background-size: 6px 100%;
+	background-repeat:no-repeat;
+	background-position: left center;	
+	*/
+}
+#sideRight .ideaBanner div, #sideRight .productBanner div, #sideRight .problemBanner div {
+	color:#9E9E9E;
+}
+
+#splashWrapper {
+	margin-top:-75px; 
+	text-align:left;
+	background-color:#fff;
+	border-bottom: 1px solid #e8e8e8;
+}
+#splashWrapper .container {
+	
+	background-image:url(https://seedproof.com/images/bgs/phone1.jpg);
+    background-size: 350px;
+	background-repeat:no-repeat;
+	background-position: right 0 top 80px; 	
+	/*
+	how_it_works.gif
+	
+	background-image:url(https://seedproof.com/images/bgs/dashboard.png);
+	background-size: 600px; 
+	background-repeat:no-repeat;
+	background-position: right -15% top 80px;
+	*/
+}
+#splashText {
+	padding:140px 40% 80px 0;
+	font-size:3.80rem; 
+	font-weight:800;
+	color:rgba(0,0,0,0.75);
+	padding-right:45%;
+}
+#splashText div {
+	margin-top:10px;
+	font-size:1.50rem; line-height:1.80rem; font-weight:300; 
+	color:#212121;
+}
+
+#splashText a {
+	display:block;
+	margin-top:30px;
+	color:#234199; 
+	font-weight:800;
+	font-size:1.70rem; 
+}
